@@ -35,6 +35,4 @@ class Artist
     name.downcase.gsub(' ', '-')
   end
   
-  extend Memorable
-  
 end
